@@ -1,0 +1,167 @@
+* {
+	
+    font-family: 'Roboto';
+}
+
+.menu-strip {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.menu-item {
+    display: inline;
+    font-size: small;
+	padding-right: 20px;
+    font-weight: lighter;
+}
+
+.menu-links {
+	color: grey;
+	text-decoration: none;
+}
+
+.menu-row {
+	justify-content: space-around;
+}
+
+.intro-div {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.slogan {
+    color: #00b39b;
+}
+
+.info-div {
+    display: flex;
+    padding-top: 30px;
+}
+
+.left-paragraph {
+    padding-left: 120px;
+    padding-right: 20px;
+}
+
+.right-paragraph {
+    padding-right: 120px;
+    padding-left: 20px;
+}
+
+.card-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.card-text {
+    color: white;
+    font-weight: 40px;
+}
+
+.service-card {
+    border-radius: 10px;
+    max-width: 18rem; 
+}
+
+.service-card-body {
+    padding-top: 30px;
+}
+
+.service-card-img {
+    padding-bottom: 10px;
+}
+
+.service-card-anchor {
+    color: white;
+}
+
+.brands-text {
+    color: #00b39b;
+    max-width: 18rem;
+}
+
+.brands-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.stats-section {
+    padding: 5rem 0;
+    background-color: #e5faf8;
+    background: url(../resource/logo.png) no-repeat, linear-gradient(-45deg
+,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+    /* background-size: 500px; */
+    /* width: 1680px;
+    height: 700px; */
+    background-position:20% 200%;
+}
+
+.stats-header {
+    color: #00b39b;
+    display: block;
+    margin-top: 100px;
+    font-weight: 100px;
+}
+
+.stats-card-title-text {
+    color: #00b39b;
+}
+
+.stats-card-body-text {
+    color: grey;
+    font-size: small;
+}
+
+.stats-card-separator {
+    padding-bottom: 50px;
+}
+
+.stats-card-text-padding {
+    padding-bottom: 50px;
+}
+
+.countries-section {
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.countries-paragraph {
+    padding: 10px 400px;
+}
+
+.countries-card-section {
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    /* border: mediumblue;
+    border-width: thick; */
+
+}
+
+.counties-image {
+    margin-bottom: 20px;
+}
+
+.join-section-header {
+    text-align: center;
+    font-weight: 100px;
+}
+
+#see-all-openings {
+    padding-top: 20px;
+    padding-left: 540px;
+}
+
+.footer {
+    padding-top: 20px;
+    border-top: 1px solid #eef2f2;
+    text-align: center;
+    color: grey;
+    font-weight: 10px;
+    font-size: smaller;
+}
